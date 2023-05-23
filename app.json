@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "react-native-todolist",
-    "slug": "react-native-todolist",
+    "name": "cg-react-native-todolist",
+    "slug": "cg-react-native-todolist",
+    "description": "todo list de test.",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,16 +16,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.grafiti54.cgreactnativetodolist"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.grafiti54.cgreactnativetodolist"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "41c2b77b-a7cc-4934-96ab-7a9f1029e20e"
+      }
     }
   }
 }
